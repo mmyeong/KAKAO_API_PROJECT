@@ -60,7 +60,7 @@ capture = cv2.VideoCapture(0)
 capture.set(cv2.CAP_PROP_FRAME_WIDTH,320)
 capture.set(cv2.CAP_PROP_FRAME_HEIGHT,240)
 
-sleep_cnt = 1 #30초간 '졸음'상태 확인
+sleep_cnt = 1 #20초간 '졸음'상태 확인
 while True:
     ret, frame = capture.read()
     if ret == True:
