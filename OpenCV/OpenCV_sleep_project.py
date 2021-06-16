@@ -94,7 +94,7 @@ while True:
             send_music_link()
             break##1번만 알람이 오면 프로그램 정지 반복 원한다면 주석으로막기
     else:
-        print('깨어잇는 상태')
+        print('깨어는 상태')
         sleep_cnt=1
 
 # 카메라 객체 반환
